@@ -47,9 +47,17 @@ Le gabarit sera plutôt présenté comme ceci, pour clarifier le fait qu'il est 
 "sameAs": ["https://www.facebook.com/ladansesurlesroutes"]
 ```
 
+### Identifiants
+
+(à compléter)
 
 ## Accès aux gabarits
 
 * [Organization](/Organization), pour les organisations (diffuseurs, agences, compagnies)
-* DanceEvent, pour les spectacles (à venir)
+* [DanceEvent](/DanceEvent), pour les spectacles
 * CreativeWork, pour les oeuvres chorégraphiques (à venir)
+
+## À faire
+
+- [ ] Note sur les identifiants
+- [ ] Déterminer si on doit utiliser Person pour les chorégraphes indépendants
