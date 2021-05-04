@@ -1,12 +1,30 @@
 {
   "@context": "http://schema.org",
   "@type": "DanceEvent",
-  "@id": "{{URI constituant un identfiant unique de la représentation}}",
+  "@id": "{{URI constituant un identifiant unique de la représentation}}",
   "name": "{{Titre de l'oeuvre}}",
   "startDate": "{{Date et heure du début de la représentation, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00}}",
   "endDate": "{{Date et heure du début de la représentation, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00}}",
   "eventStatus": "{{Le statut, soit https://schema.org/EventScheduled ou une autre valeur EventStatusType}}",
   "eventAttendanceMode": "{{Le mode d'accès à la représentation, soit https://schema.org/OfflineEventAttendanceMode ou une valeur EventAttendanceModeEnumeration}}",
+  "organizer": {
+    "@type": "Organization",
+    "@id": "{{Identifiant unique du diffuseur}}",
+    "name": "{{Nom du diffuseur}}",
+    "url": "{{URL de la page du diffuseur}}"
+  },
+  "performer": {
+    "@type": "Organization",
+    "@id": "{{Identifiant unique de la compagnie}}",
+    "name": "{{Nom de la compagnie}}",
+    "url": "{{URL de la page de la compagnie}}"
+  },
+  "workPerformed": {
+    "@type": "CreativeWork",
+    "@id": "{{Identifiant unique de l'oeuvre}}",
+    "name": "{{Nom de l'oeuvre}}",
+    "url": "{{URL de la page de l'oeuvre}}"
+  },
   "location": {
     "@type": "Place",
     "address": {
@@ -16,5 +34,14 @@
       "postalCode": "{{Code postal}}",
       "streetAddress": "{{Numéro civique et rue}}"
     }
+  },
+  "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "url": "{{URL vers la page d'achat de billets}}",
+    "availabilityStarts": "{{Date et heure du début de la disponibilité, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00}}",
+    "availabilityEnds": "{{Date et heure de fin de la disponibilité, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00}}",
+    "price": "{{Prix au format 9.99}}",
+    "priceCurrency": "CAD"
   }
 }

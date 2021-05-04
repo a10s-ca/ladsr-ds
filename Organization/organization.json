@@ -7,4 +7,5 @@
   "logo": "{{URL vers le logo de l'organisation}}",
   "description": "{{Description de l'organisation}}",
   "sameAs": ["{{URL vers un profil de média social}}", "{{autre URL}}", "{{etc.}}"],
+  "event": []
 }
