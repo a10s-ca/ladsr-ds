@@ -51,11 +51,11 @@ Le gabarit sera plutôt présenté comme ceci, pour clarifier le fait qu'il est 
 
 Les identifiants utilisés pour les clés `@id` de différents gabarits peuvent être de n'importe quel format.
 
-Toutefois, pour rendre les choses simple et respecter une convention souvent utilisée dans les données structurées et liées, nous suggérer d'utiliser dans la mesure du possible une URI identique à l'URL (plus ou moins un _anchor_) comme identifiant.
+Toutefois, pour rendre les choses simple et respecter une convention souvent utilisée dans les données structurées et liées, nous suggérer d'utiliser dans la mesure du possible une URI identique à l'URL comme identifiant, en ajoutant un _anchor_ au besoin.
 
-Ainsi, pour les oeuvres qui disposent d'une URL unique, le `@id` pourrait être l'URL en question.
+Ainsi, comme les oeuvres, les compagnies et les chorégraphes disposent chacun d'une URL unique, le `@id` pourrait être l'URL en question.
 
-Pour les représentations, qui ne disposent pas d'une URL unique, le `@id` pourrait être l'URL de l'oeuvre, suivi d'un anchor correspond à la représentation, par exemple par son numéro d'enregistrement Airtable.
+Pour les représentations, qui ne disposent pas d'une URL unique, le `@id` pourrait être l'URL de l'oeuvre, suivi d'un _anchor_ correspond à la représentation, par exemple par son numéro d'enregistrement Airtable.
 
 ## Accès aux gabarits
 
