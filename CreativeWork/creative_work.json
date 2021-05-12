@@ -97,5 +97,9 @@
     "duration": "{{Durée du vidéo, au format ISO 8601, par exemple PT30M ou PT1H25M}}",
     "thumbnailUrl": "URL de l'image thumbnail du vidéo",
     },
+  
+  // Events
+
+    "@subjectOf": [  ],
 
 }
