@@ -1,4 +1,101 @@
 {
   "@context": "http://schema.org",
+
   "@type": "CreativeWork",
+
+  "@additionalType" : [
+    "http://www.productontology.org/id/Choreography",
+    "http://www.productontology.org/id/Choreography_(dance)", ],
+
+  "@identifier": "{{URI constituant un identifiant unique de l'oeuvre}}",
+
+  "@url": "{{URL de la page décrivant l'oeuvre, sera probablement identique à la propriété @identifier}}",
+
+  // Nom
+
+  "@name": "{{Titre de l'oeuvre}}",
+
+  "@alternateName": "",
+
+  // Description
+
+  "@description": "{{Description courte de l'oeuvre}}",
+  
+  "@abstract": "{{Description complète de l'oeuvre}}",
+
+  // Crédit créateur
+
+  "@creator": {
+    "@type": "Person",
+    "@additionalType" : [
+      "https://www.wikidata.org/wiki/Q2490358", ],
+    "name": "{{Nom du chorégraphe}}",
+    "@sameAs" : [
+        "{{lien vers un ou des comptes de réseaux sociaux, si disponible}}",
+        "{{URI viaf, si disponible}}", 
+        "{{URI wikidata, si disponible}}", 
+        "{{URI wikipedia, si disponible}}",
+        "{{URI ISNI, si disponible}}",
+        "{{autre URI pertinent, si disponible}}",],
+    },
+
+  // OU
+
+  "@creator": {
+    "@type": "Organization",
+    "@additionalType" : ["https://www.wikidata.org/wiki/Q2490358", ],
+    "name": "{{Nom de l'organisation}}",
+    "@sameAs" : [
+        "{{lien vers un ou des comptes de réseaux sociaux, si disponible}}",
+        "{{URI viaf, si disponible}}", 
+        "{{URI wikidata, si disponible}}", 
+        "{{URI wikipedia, si disponible}}",
+        "{{URI ISNI, si disponible}}",
+        "{{autre URI pertinent, si disponible}}",],
+    },
+
+  // autres crédits
+
+  "@contributor": [{
+    "@type": "Person",
+    "@additionalType" : ["https://www.wikidata.org/wiki/Q2490358", ],
+    "@name": "{{Nom du chorégraphe}}",
+    "@sameAs" : [
+        "{{lien vers un ou des comptes de réseaux sociaux, si disponible}}",
+        "{{URI viaf, si disponible}}", 
+        "{{URI wikidata, si disponible}}", 
+        "{{URI wikipedia, si disponible}}",
+        "{{URI ISNI, si disponible}}",
+        "{{autre URI pertinent, si disponible}}",],},
+  ],
+
+  "@creditText": "{{Liste des crédits sous forme de texte long}}", 
+
+  // Propriétés
+
+  "@dateCreated": "{{Date de création de l'oeuvre, au format ISO 8601, par exemple 2016-03-31}}",
+
+  "@timeRequired": "{{Durée de l'oeuvre, au format ISO 8601, par exemple PT30M ou PT1H25M}}", 
+
+  "audience": {
+    "@type": "Audience",
+    "name": "{{Le public cible de l'oeuvre sous forme de texte, par exemple : Tous publics}}"
+    },
+
+  "@keywords": ["{{premier mot clé}}", "{{deuxième mot clé}}", "{{etc}}"], 
+
+  // Media
+
+  "@image": "{{URL de l'image}}",
+
+  "@thumbnailUrl": "{{}}", 
+
+  "@video": {
+    "@type": "VideoObject",
+    "@id": "{{URL du vidéo}}",
+    "name": "{{Nom du vidéo}}",
+    "duration": "{{Durée du vidéo, au format ISO 8601, par exemple PT30M ou PT1H25M}}",
+    "thumbnailUrl": "URL de l'image thumbnail du vidéo",
+    },
+
 }
