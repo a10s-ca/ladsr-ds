@@ -14,3 +14,4 @@ Le gabarit _CreativeWork_ est utilisé pour représenter les oeuvres choréograp
 - [ ] La date de création devrait aller dans dans @datePublished ou dans @dateCreated ?
 - [ ] La description de l'oeuvre devrait aller dans @abstract ou dans @description ?
 - [ ] L'organisation devrait-elle aller dans @creator ou dans @producer ? sous-question: devrait-on toujours mettre le chorégraphe dans @creator ou devrait-on le mettre dans contributor quand on mets l'organisation dans @creator ?
+- [ ] Est-ce que les Event seront toujours dans les modèles CreativeWork ? si oui, on ne serait pas mieux d'enlever ce gabarit complètement ?
