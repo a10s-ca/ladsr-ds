@@ -59,10 +59,6 @@ Pour les représentations, qui ne disposent pas d'une URL unique, le `@id` pourr
 
 D'un modèle à l'autre, les `@id` doivent être cohérents, c'est à dire que si une URI est utilisée comme `@id` sur la page d'un chorégraphe, c'est cette même URI qui doit être utilisée lorsque le chorégraphe est mentionné comme `creator` dans `creativeWork` ou comme `director` dans `danceEvent`.
 
-### videoObject
-
-\[nous avons mis le `videoObject` à l'intérieur du `creativeWork`, il faudra vérifier si Google en fera des cartes enrichies de type vidéo quand même. Si ce n'est pas le cas, il faudra modifier le modèle pour avoir 2 modèles séparés sur la même page, un pour le `videoObject` et un pour le `creativeWork`.]
-
 ### ISNI et autres identifiants
 
 \[Données non dispo actuellement dans la BD de la DSR, mais ce serait un ajout pertinent]
