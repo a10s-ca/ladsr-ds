@@ -43,5 +43,6 @@
     "availabilityEnds": "{{Date et heure de fin de la disponibilité, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00}}",
     "price": "{{Prix au format 9.99}}",
     "priceCurrency": "CAD"
-  }
+  },
+  "duration" : "{{durée de l'oeuvre en format ISO 8601, par exemple : PT1H30M }}",
 }
