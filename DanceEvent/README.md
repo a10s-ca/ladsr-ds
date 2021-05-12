@@ -36,5 +36,5 @@ Dans le cas où il est possible d'acheter des billets pour la représentation (q
 
 ## À faire
 
-- [ ] Peut-on trouver une façon de faire un lien entre l'oeuvre et l'agence ou l'agent?
-- [ ] Adapter la clé `performer` si jamais on a des chorégraphes représentés par Person et pas Organization
+- [ ] Peut-on trouver une façon de faire un lien entre l'oeuvre et l'agence ou l'agent? Est-ce qu'on a cette info dans la BD ? Je ne la vois pas sur la représentation...
+- [ ] Adapter la clé `performer` si jamais on a des chorégraphes représentés par Person et pas Organization. Ou plutôt utiliser la clé @director ?
