@@ -57,6 +57,20 @@ Ainsi, comme les oeuvres, les compagnies et les chorégraphes disposent chacun d
 
 Pour les représentations, qui ne disposent pas d'une URL unique, le `@id` pourrait être l'URL de l'oeuvre, suivi d'un _anchor_ correspondant à la représentation, par exemple par son numéro d'enregistrement Airtable.
 
+D'un modèle à l'autre, les `@id` doivent être cohérents, c'est à dire que si une URI est utilisée comme `@id` sur la page d'un chorégraphe, c'est cette même URI qui doit être utilisée lorsque le chorégraphe est mentionné comme `creator` dans `creativeWork` ou comme `director` dans `danceEvent`.
+
+### `Abstract` vs `description`
+
+\[...]
+
+### videoObject
+
+\[nous avons mis le `videoObject` à l'intérieur du `creativeWork`, il faudra vérifier si Google en fera des cartes enrichies de type vidéo quand même. Si ce n'est pas le cas, il faudra modifier le modèle pour avoir 2 modèles séparés sur la même page, un pour le `videoObject` et un pour le `creativeWork`.]
+
+### ISNI et autres identifiants
+
+\[Données non dispo actuellement dans la BD de la DSR, mais ce serait un ajout pertinent]
+
 ## Accès aux gabarits
 
 * [Organization](/Organization), pour les organisations (diffuseurs, agences, compagnies)
@@ -64,6 +78,4 @@ Pour les représentations, qui ne disposent pas d'une URL unique, le `@id` pourr
 * [CreativeWork](/CreativeWork), pour les oeuvres chorégraphiques
 
 ## À faire
-
-- [ ] Note sur les identifiants
-- [ ] Déterminer si on doit utiliser Person pour les chorégraphes indépendants
+- [ ] Vérifier si une majorité des chorégraphes ont un identifiant VIAF
