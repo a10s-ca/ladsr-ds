@@ -55,7 +55,7 @@ Toutefois, pour rendre les choses simple et respecter une convention souvent uti
 
 Ainsi, comme les oeuvres, les compagnies et les chorégraphes disposent chacun d'une URL unique, le `@id` pourrait être l'URL en question.
 
-Pour les représentations, qui ne disposent pas d'une URL unique, le `@id` pourrait être l'URL de l'oeuvre, suivi d'un _anchor_ correspond à la représentation, par exemple par son numéro d'enregistrement Airtable.
+Pour les représentations, qui ne disposent pas d'une URL unique, le `@id` pourrait être l'URL de l'oeuvre, suivi d'un _anchor_ correspondant à la représentation, par exemple par son numéro d'enregistrement Airtable.
 
 ## Accès aux gabarits
 
