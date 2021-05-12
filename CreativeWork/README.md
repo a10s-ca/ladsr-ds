@@ -20,7 +20,3 @@ Si une oeuvre est liée à un chorégraphe idépendant, elle aura une seul `crea
 
 ## À faire
 - [ ] 
-
-## Interrogations
-- [ ] L'organisation devrait-elle aller dans @creator ou dans @producer ? sous-question: devrait-on toujours mettre le chorégraphe dans @creator ou devrait-on le mettre dans contributor quand on mets l'organisation dans @creator ?
-- [ ] Est-ce que les Event seront toujours dans les modèles CreativeWork ? si oui, on ne serait pas mieux d'enlever ce gabarit complètement ?
