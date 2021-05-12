@@ -51,7 +51,7 @@ Le gabarit sera plutôt présenté comme ceci, pour clarifier le fait qu'il est 
 
 Les identifiants utilisés pour les clés `@id` de différents gabarits peuvent être de n'importe quel format.
 
-Toutefois, pour rendre les choses simple et respecter une convention souvent utilisée dans les données structurées et liées, nous suggérer d'utiliser dans la mesure du possible une URI identique à l'URL comme identifiant, en ajoutant un _anchor_ au besoin.
+Toutefois, pour rendre les choses simple et respecter une convention souvent utilisée dans les données structurées et liées, nous suggérons d'utiliser dans la mesure du possible une URI identique à l'URL comme identifiant, en ajoutant un _anchor_ au besoin.
 
 Ainsi, comme les oeuvres, les compagnies et les chorégraphes disposent chacun d'une URL unique, le `@id` pourrait être l'URL en question.
 
