@@ -2,7 +2,7 @@
 
 Le gabarit _CreativeWork_ est utilisé pour représenter les oeuvres choréographiques.
 
-## `creator`
+### `creator`
 
 Si une oeuvre est liées à une compagnie, elle aura deux `creator` :
 - la compagnie
@@ -10,7 +10,7 @@ Si une oeuvre est liées à une compagnie, elle aura deux `creator` :
 
 Si une oeuvre est liée à un chorégraphe idépendant, elle aura une seul `creator`, le chorégraphe.
 
-## `abstract` vs `description`
+### `abstract` vs `description`
 
 \[...]
 
