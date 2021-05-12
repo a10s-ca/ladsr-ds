@@ -61,7 +61,7 @@ Pour les représentations, qui ne disposent pas d'une URL unique, le `@id` pourr
 
 * [Organization](/Organization), pour les organisations (diffuseurs, agences, compagnies)
 * [DanceEvent](/DanceEvent), pour les spectacles
-* CreativeWork, pour les oeuvres chorégraphiques (à venir)
+* [CreativeWork](/CreativeWork), pour les oeuvres chorégraphiques (à venir)
 
 ## À faire
 
