@@ -34,7 +34,8 @@ Dans le gabarit, la propriété `location` utilisée représente un lieu physiqu
 
 Dans le cas où il est possible d'acheter des billets pour la représentation (quand il y a un lien d'achat présenté), la clé _offers_ sera incluse dans le gabarit, sinon elle peut être retirée.
 
-## À faire
+## Questions pour Stéphanie
 
-- [ ] Peut-on trouver une façon de faire un lien entre l'oeuvre et l'agence ou l'agent? Est-ce qu'on a cette info dans la BD ? Je ne la vois pas sur la représentation...
-- [ ] Adapter la clé `performer` si jamais on a des chorégraphes représentés par Person et pas Organization. Ou plutôt utiliser la clé @director ?
+- [ ] Peut-on trouver une façon de faire un lien entre l'oeuvre et l'agence ou l'agent?
+- [ ] Quel clé est plus pertinente pour le chorégraphe : `director` ou `contributor` ? 
+- [ ] Adapter la clé `performer` si jamais on a des chorégraphes représentés par Person et pas Organization
