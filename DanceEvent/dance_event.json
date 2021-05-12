@@ -4,7 +4,7 @@
   "@id": "{{URI constituant un identifiant unique de la représentation}}",
   "name": "{{Titre de l'oeuvre}}",
   "startDate": "{{Date et heure du début de la représentation, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00}}",
-  "endDate": "{{Date et heure du début de la représentation, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00}}",
+  "endDate": "{{Date et heure de fin de la représentation, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00}}",
   "eventStatus": "{{Le statut, soit https://schema.org/EventScheduled ou une autre valeur EventStatusType}}",
   "eventAttendanceMode": "{{Le mode d'accès à la représentation, soit https://schema.org/OfflineEventAttendanceMode ou une valeur EventAttendanceModeEnumeration}}",
   "organizer": {
@@ -30,7 +30,7 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "{{Nom de la ville}}",
-      "addressRegion": "{{Non de la province}}",
+      "addressRegion": "{{Nom de la province}}",
       "postalCode": "{{Code postal}}",
       "streetAddress": "{{Numéro civique et rue}}"
     }
