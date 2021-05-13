@@ -1,15 +1,13 @@
 {
   "@context": "http://schema.org",
-
   "@type": "CreativeWork",
+  "@id": "{{URI constituant un identifiant unique de l'oeuvre}}",
 
   "additionalType" : [
     "http://www.productontology.org/id/Choreography",
     "http://www.productontology.org/id/Choreography_(dance)", 
     "http://www.ladansesurlesroutes.com/ontologie/oeuvre_choreographique",
   ],
-
-  "@id": "{{URI constituant un identifiant unique de l'oeuvre}}",
 
   "url": "{{URL de la page décrivant l'oeuvre, sera probablement identique à la propriété @identifier}}",
 
