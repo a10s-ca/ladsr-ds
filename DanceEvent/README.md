@@ -19,6 +19,10 @@ Dans tous les cas, il s'agit de simple lien vers l'identifiant et l'URL de l'oeu
 
 Si le site venait à changer (une page par représentation), il pourrait être préférable d'utiliser un modèle long, par exemple inspiré de celui de la [Trousse TAI](https://github.com/a10s-ca/trousse-tai).
 
+### (!) Propriété _name_
+
+ Cette propriété s'applique à la représentation, elle n'est donc pas obligée de contenir le titre de l'oeuvre présentée.
+
 ### Propriété _location_
 
 Dans le gabarit, la propriété `location` utilisée représente un lieu physique, donc pour un spectacle en présentiel. Dans le cas d'un événement virtuel, la propriété `location` pourrait prendre la forme suivante:
@@ -34,8 +38,41 @@ Dans le gabarit, la propriété `location` utilisée représente un lieu physiqu
 
 Dans le cas où il est possible d'acheter des billets pour la représentation (quand il y a un lien d'achat présenté), la clé _offers_ sera incluse dans le gabarit, sinon elle peut être retirée.
 
+### (!) Propriété _eventStatus_
+
+La liste des options possibles se trouve ici : https://schema.org/EventStatusType
+
+La syntaxe à utiliser est la suivante :
+
+```
+"eventStatus": "https://schema.org/EventScheduled"
+```
+
+### (!) Propriété _eventAttendanceMode_
+
+La liste des options possibles se trouve ici : https://schema.org/EventAttendanceModeEnumeration
+
+La syntaxe à utiliser est la suivante :
+
+```
+"eventStatus": "https://schema.org/OfflineEventAttendanceMode"
+```
+
+Suggestion : comme l'info n'est pas dans la BD, je proposerais de mettre directement eventScheduled et Offline dans le modèle au lieu d'offrir le choix.
+
+### (!) Propriété _performer_
+
+S'il s'agit d'un chorégraphe indépendant, ne pas inclure la propriété `performer`.
+
 ## Questions pour Stéphanie
 
 - [ ] Peut-on trouver une façon de faire un lien entre l'oeuvre et l'agence ou l'agent?
-- [ ] Quel clé est plus pertinente pour le chorégraphe : `director` ou `contributor` ? 
+- [ ] Quelle clé est plus pertinente pour le chorégraphe : `director` ou `contributor` ? 
+         Contributor : A secondary contributor to the CreativeWork or Event.
+         Director : A director of e.g. tv, radio, movie, video gaming etc. content, or of an event.
+- [ ] Quelle clé est plus pertinente pour la compagnie : `performer` ou `contributor` ? 
+         Performer : A performer at the event—for example, a presenter, musician, musical group or actor. Supersedes performers.
+         Contributor : A secondary contributor to the CreativeWork or Event.
 - [ ] Adapter la clé `performer` si jamais on a des chorégraphes représentés par Person et pas Organization
+- [ ] Est-ce qu'on a l'info sur le lieu (nom et/ou adresse) dans la BD ? Parce que ça n'apparait pas dans le tableua des représentations. Si on ne l'a pas, il faut enlever la propriété `location`.
+- [ ] idem pour la propriété `offers`.
