@@ -9,19 +9,25 @@
   "eventAttendanceMode": "{{Le mode d'accès à la représentation, soit https://schema.org/OfflineEventAttendanceMode ou une valeur EventAttendanceModeEnumeration}}",
   "organizer": {
     "@type": "Organization",
-    "@id": "{{Identifiant unique du diffuseur}}",
+    "@id": "{{URI constituant un identifiant unique du diffuseur}}",
     "name": "{{Nom du diffuseur}}",
     "url": "{{URL de la page du diffuseur}}"
   },
+  "director": {
+    "@type": "Person",
+    "@id": "{{URI constituant un identifiant unique du chorégraphe, s'il s'agit d'un chorégraphe indépendant}}",
+    "name": "{{Nom du chorégraphe}}",
+    "url": "{{URL de la page du chorégraphe, s'il s'agit d'un chorégraphe indépendant}}"
+  },
   "performer": {
     "@type": "Organization",
-    "@id": "{{Identifiant unique de la compagnie}}",
+    "@id": "{{URI constituant un identifiant unique de la compagnie}}",
     "name": "{{Nom de la compagnie}}",
     "url": "{{URL de la page de la compagnie}}"
   },
   "workPerformed": {
     "@type": "CreativeWork",
-    "@id": "{{Identifiant unique de l'oeuvre}}",
+    "@id": "{{URI constituant un identifiant unique de l'oeuvre}}",
     "name": "{{Nom de l'oeuvre}}",
     "url": "{{URL de la page de l'oeuvre}}"
   },
