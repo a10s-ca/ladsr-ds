@@ -1,6 +1,19 @@
 {
   "@context": "http://schema.org",
-  "@type": "DanceEvent",
-  "@id": "{{URI constituant un identifiant unique de la représentation}}",
-  "name": "{{Titre de l'oeuvre}}",
+  "@type": "Person",
+  "@id": "{{URI constituant un identifiant unique du chorégraphe}}",
+  
+  "additionalType" : [ "https://www.wikidata.org/wiki/Q2490358" ],
+  
+  "name": "{{Nom du chorégraphe}}",
+  
+  "sameAs" : [
+      "{{lien vers un ou des comptes de réseaux sociaux, si disponible}}",
+      "{{lien vers le site officiel, si disponible}}",
+      "{{URI wikidata, si disponible}}", 
+      "{{URI wikipedia, si disponible}}",
+      "{{autre URI pertinent, si disponible}}"],
+  "identifier" : [
+      "{{URI ISNI, si disponible}}",
+      "{{URI viaf, si disponible}}"],
 }
