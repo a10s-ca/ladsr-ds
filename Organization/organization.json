@@ -7,5 +7,34 @@
   "logo": "{{URL vers le logo de l'organisation}}",
   "description": "{{Description de l'organisation}}",
   "sameAs": ["{{URL vers un profil de média social}}", "{{autre URL}}", "{{etc.}}"],
+  "naics": "{{711120 ou }}",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{Nom de la ville}}",
+      "addressRegion": "{{Nom de la province}}",
+      "postalCode": "{{Code postal}}",
+      "streetAddress": "{{Numéro civique et rue}}"
+    }
+  },
+  
+  "email": "{{courriel}}",
+    
+  "contactPoint" : [{
+    "@type" : "ContactPoint",
+    "telephone" : "{{numéro de téléphone}}",
+    "contactType" : "customer service",
+  }
+  
+  "memberOf": {
+    "@type": "Organization",
+    "@id": "{{URI constituant un identfiant unique de la DSR}}",
+    "url": "https://ladansesurlesroutes.com/",
+    "name": "La danse sur les routes du Québec",
+    "logo": "{{URL vers le logo de la DSR}}",
+    "description": "{{Description de la DSR}}",
+  },
+  
   "event": []
 }
