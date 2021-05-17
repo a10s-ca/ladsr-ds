@@ -34,7 +34,7 @@ Enlever la propriété ``performer``
 
 Conserver toutes les propriétés.
 
-Précisions
+## Précisions
 
 ### Propriété _name_
 
@@ -65,7 +65,7 @@ La syntaxe à utiliser est la suivante :
 "eventStatus": "https://schema.org/EventScheduled"
 ```
 
-### (!) Propriété _eventAttendanceMode_
+### Propriété _eventAttendanceMode_
 
 La liste des options possibles se trouve ici : https://schema.org/EventAttendanceModeEnumeration
 
@@ -75,7 +75,7 @@ La syntaxe à utiliser est la suivante :
 "eventStatus": "https://schema.org/OfflineEventAttendanceMode"
 ```
 
-Suggestion : comme l'info n'est pas dans la BD, je proposerais de mettre directement eventScheduled et Offline dans le modèle au lieu d'offrir le choix.
+(!) Suggestion : comme l'info n'est pas dans la BD, je proposerais de mettre directement eventScheduled et Offline dans le modèle au lieu d'offrir le choix.
 
 ## Questions pour Stéphanie
 
