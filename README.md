@@ -65,9 +65,11 @@ D'un modèle à l'autre, les `@id` doivent être cohérents, c'est à dire que s
 
 ## Accès aux gabarits
 
-* [Organization](/Organization), pour les organisations (diffuseurs, agences, compagnies)
-* [DanceEvent](/DanceEvent), pour les spectacles
+* [Organization](/Organization), pour les organisations (diffuseurs, agences, compagnies de danse)
+* [Person](/Person), pour les chorégraphes indépendants
 * [CreativeWork](/CreativeWork), pour les oeuvres chorégraphiques
+* [DanceEvent](/DanceEvent), pour les représentations
+
 
 ## À faire
 - [ ] Vérifier si une majorité des chorégraphes ont un identifiant VIAF
