@@ -14,7 +14,7 @@ La propriété `event` présentée dans le gabarit est vide. Il faudra y insére
 
 ## Précisions
 
-### NAICS
+### Propriété _NAICS_
 
 North American Industry Classification System (NAICS)
 
@@ -24,12 +24,8 @@ NAICS Code 711310 - Promoters of Performing Arts, Sports, and Similar Events wit
 NAICS Code 711320 - Promoters of Performing Arts, Sports, and Similar Events without Facilities
 
 Utilisation suggérée :
-NAICS Code 711120 - Compagnies de danse
-NAICS Code 711310 - Promoters of Performing Arts, Sports, and Similar Events with Facilities
-NAICS Code 711320 - Promoters of Performing Arts, Sports, and Similar Events without Facilities
+Pour les compagnies de danse, utiliser 711120.
 
-### Propriétés exclues
+### Propriété _telephone_
 
-####``telephone`` 
-
-redondant avec contact point
+Exclue car redondante avec ``contact point``
