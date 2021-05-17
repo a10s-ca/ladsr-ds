@@ -4,10 +4,11 @@ Le gabarit _DanceEvent_ est utilisé pour les représentations des oeuvres. Il s
 
 [Voir le gabarit](dance_event.json)
 
+## Propriété _performer_
 
-## Notes sur l'utilisation
+S'il s'agit d'un chorégraphe indépendant, ne pas inclure la propriété `performer`.
 
-### Version courte
+## Version courte
 
 Typiquement, il serait préférable d'avoir une page web dédiée à chaque représentation, et donc un seul _DanceEvent_ par page. Cela n'est toutefois pas le cas sur le site de la DSR. Les objets _DanceEvent_ ne seront donc pas utilisés seuls, mais dans le contexte d'un [CreativeWork](../CreativeWork) (dans le répertoire des oeuvres) ou d'une [Organization](../Organization) (dans les répertoire des diffuseurs, des agences et agents, ou des compagnies et chorégraphes). Pour cette raison, on choisit d'utiliser un modèle court, qui ne reprend que les informations essentielles de la représentation, et donne plutôt les informations:
 
@@ -15,11 +16,27 @@ Typiquement, il serait préférable d'avoir une page web dédiée à chaque repr
 * sur le diffuseur, à travers la propriété `organizer`
 * sur la compagnie ou le chorégraphe, à travers la propriété `performer`
 
-Dans tous les cas, il s'agit de simple lien vers l'identifiant et l'URL de l'oeuvre. Selon le contexte d'utilisation du _DanceEvent_, il se peut que l'information soit redondante (il ne serait pas nécessaire de mettre le `workPerformed` puisque la représentation sera dans une énumération `objectOf` de l'oeuvre). Nous avons préféré éviter de faire des variantes qui évite ces redondances partielles pour éviter d'augmenter la complexité d'utilisation du gabarit en contexte réel.
-
 Si le site venait à changer (une page par représentation), il pourrait être préférable d'utiliser un modèle long, par exemple inspiré de celui de la [Trousse TAI](https://github.com/a10s-ca/trousse-tai).
 
-### (!) Propriété _name_
+### Utilisation au sein du gabarit _creativeWork_
+
+Enlever la propriété ``workPerformed``.
+
+### Utilisation au sein du gabarit _organization_ d'un diffuseur
+
+Enlever la propriété ``organizer``
+
+### Utilisation au sein du gabarit _organization_ d'une compagnie de danse
+
+Enlever la propriété ``performer``
+
+### Utilisation au sein du gabarit _organization_ d'une agence
+
+Conserver toutes les propriétés.
+
+Précisions
+
+### Propriété _name_
 
  Cette propriété s'applique à la représentation, elle n'est donc pas obligée de contenir le titre de l'oeuvre présentée.
 
@@ -38,7 +55,7 @@ Dans le gabarit, la propriété `location` utilisée représente un lieu physiqu
 
 Dans le cas où il est possible d'acheter des billets pour la représentation (quand il y a un lien d'achat présenté), la clé _offers_ sera incluse dans le gabarit, sinon elle peut être retirée.
 
-### (!) Propriété _eventStatus_
+### Propriété _eventStatus_
 
 La liste des options possibles se trouve ici : https://schema.org/EventStatusType
 
@@ -59,10 +76,6 @@ La syntaxe à utiliser est la suivante :
 ```
 
 Suggestion : comme l'info n'est pas dans la BD, je proposerais de mettre directement eventScheduled et Offline dans le modèle au lieu d'offrir le choix.
-
-### (!) Propriété _performer_
-
-S'il s'agit d'un chorégraphe indépendant, ne pas inclure la propriété `performer`.
 
 ## Questions pour Stéphanie
 
