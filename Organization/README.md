@@ -19,9 +19,9 @@ La propriété `event` présentée dans le gabarit est vide. Il faudra y insére
 North American Industry Classification System (NAICS)
 
 Définitions :
-NAICS Code 711120 - Dance Companies
-NAICS Code 711310 - Promoters of Performing Arts, Sports, and Similar Events with Facilities
-NAICS Code 711320 - Promoters of Performing Arts, Sports, and Similar Events without Facilities
+- NAICS Code 711120 - Dance Companies
+- NAICS Code 711310 - Promoters of Performing Arts, Sports, and Similar Events with Facilities
+- NAICS Code 711320 - Promoters of Performing Arts, Sports, and Similar Events without Facilities
 
 Utilisation suggérée :
 Pour les compagnies de danse, utiliser 711120.
