@@ -33,7 +33,7 @@ Une fois le gabarit utilisé et rempli avec des données, il ne devrait plus con
 
 ### Utilisation des tableaux
 
-La syntaxe JSON-LD/Schema.org permet d'indiquer un object, plutôt qu'un tableau d'objets, pour les clés où le tableau contient un seul item. Pour faciliter la lecture, les gabarits présentent toujours des tableaux lorsqu'il est possible d'inclure plusieurs valeurs pour une clé.
+La syntaxe JSON-LD/Schema.org permet d'indiquer un objet, plutôt qu'un tableau d'objets, pour les clés où le tableau contient un seul item. Pour faciliter la lecture, les gabarits présentent toujours des tableaux lorsqu'il est possible d'inclure plusieurs valeurs pour une clé.
 
 Donc, même si le passage suivant est valide:
 
