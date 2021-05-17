@@ -81,11 +81,11 @@ La syntaxe à utiliser est la suivante :
 
 - [ ] Peut-on trouver une façon de faire un lien entre l'oeuvre et l'agence ou l'agent?
 - [ ] Quelle clé est plus pertinente pour le chorégraphe : `director` ou `contributor` ? 
-         - Contributor : A secondary contributor to the CreativeWork or Event.
-         - Director : A director of e.g. tv, radio, movie, video gaming etc. content, or of an event.
+- Contributor : A secondary contributor to the CreativeWork or Event.
+- Director : A director of e.g. tv, radio, movie, video gaming etc. content, or of an event.
 - [ ] Quelle clé est plus pertinente pour la compagnie : `performer` ou `contributor` ? 
-         - Performer : A performer at the event—for example, a presenter, musician, musical group or actor. Supersedes performers.
-         - Contributor : A secondary contributor to the CreativeWork or Event.
+- Performer : A performer at the event—for example, a presenter, musician, musical group or actor. Supersedes performers.
+- Contributor : A secondary contributor to the CreativeWork or Event.
 - [ ] Adapter la clé `performer` si jamais on a des chorégraphes représentés par Person et pas Organization
 - [ ] Est-ce qu'on a l'info sur le lieu (nom et/ou adresse) dans la BD ? Parce que ça n'apparait pas dans le tableua des représentations. Si on ne l'a pas, il faut enlever la propriété `location`.
 - [ ] idem pour la propriété `offers`.
