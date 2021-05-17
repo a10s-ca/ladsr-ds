@@ -1,92 +1,77 @@
 {
-  "@context": "http://schema.org",
-  "@type": "CreativeWork",
-  "@id": "{{URI constituant un identifiant unique de l'oeuvre}}",
-
-  "additionalType" : [
-    "http://www.productontology.org/id/Choreography",
-    "http://www.productontology.org/id/Choreography_(dance)", 
-    "http://www.ladansesurlesroutes.com/ontologie/oeuvre_choreographique",
-  ],
-
-  "url": "{{URL de la page décrivant l'oeuvre, sera probablement identique à la propriété @identifier}}",
-
-  // Nom
-
-  "name": "{{Titre de l'oeuvre}}",
-
-  // Description
-
-  "description": "{{Description de l'oeuvre}}",
-  
-  "abstract": "{{Description de l'oeuvre}}",
-
-  // Crédit créateur
-
-  "creator": {
-    "@type": "Person",
-    "@id": "{{URI constituant un identifiant unique du chorégraphe}}",
-    "additionalType" : [ "https://www.wikidata.org/wiki/Q2490358" ],
-    "name": "{{Nom du chorégraphe}}",
-    "sameAs" : [
-        "{{lien vers un ou des comptes de réseaux sociaux, si disponible}}",
-        "{{lien vers le site officiel, si disponible}}",
-        "{{URI wikidata, si disponible}}", 
-        "{{URI wikipedia, si disponible}}",
-        "{{autre URI pertinent, si disponible}}"],
-    "identifier" : [
-        "{{URI ISNI, si disponible}}",
-        "{{URI viaf, si disponible}}"],
-    },
-
-  // optionnel, si organisation :
-
-  "creator": {
-    "@type": "Organization",
-     "@id": "{{URI constituant un identifiant unique de la compagnie}}",
-    "additionalType" : ["https://www.wikidata.org/wiki/Q2490358" ],
-    "name": "{{Nom de l'organisation}}",
-    "sameAs" : [
-        "{{lien vers un ou des comptes de réseaux sociaux, si disponible}}",
-        "{{lien vers le site officiel, si disponible}}",
-        "{{URI wikidata, si disponible}}", 
-        "{{URI wikipedia, si disponible}}",
-        "{{autre URI pertinent, si disponible}}"],
-    "identifier" : [
-        "{{URI ISNI, si disponible}}",
-        "{{URI viaf, si disponible}}"],
-    },
-
-
-  "creditText": "{{Liste des crédits sous forme de texte long}}", 
-
-  // Propriétés
-
-  "dateCreated": "{{Année de création de l'oeuvre, au format ISO 8601, par exemple 2016}}",
-
-  "audience": {
-    "@type": "Audience",
-    "name": "{{Le public cible de l'oeuvre sous forme de texte, par exemple : Tous publics}}"
-    },
-
-  "keywords": ["{{premier mot clé}}", "{{deuxième mot clé}}", "{{etc}}"], 
-
-  // Media
-
-  "image": "{{URL de l'image}}",
-
-  "thumbnailUrl": "{{}}", 
-
-  "video": {
-    "@type": "VideoObject",
-    "@id": "{{URL du vidéo}}",
-    "name": "{{Titre de l'oeuvre}}",
-    "duration": "{{Durée du vidéo, au format ISO 8601, par exemple PT30M ou PT1H25M}}",
-    "thumbnailUrl": "URL de l'image thumbnail du vidéo",
-    },
-  
-  // Events
-
-    "subjectOf": [  ],
-
+   "@context":"http://schema.org",
+   "@type":"CreativeWork",
+   "@id":"{{URI constituant un identifiant unique de l'oeuvre}}",
+   "additionalType":[
+      "http://www.productontology.org/id/Choreography",
+      "http://www.productontology.org/id/Choreography_(dance)",
+      "http://www.ladansesurlesroutes.com/ontologie/oeuvre_choreographique"
+   ],
+   "url":"{{URL de la page décrivant l'oeuvre, sera probablement identique à la propriété @identifier}}",
+   "name":"{{Titre de l'oeuvre}}",
+   "description":"{{Description de l'oeuvre}}",
+   "abstract":"{{Description de l'oeuvre}}",
+   "creator":[
+      {
+         "@type":"Person",
+         "@id":"{{URI constituant un identifiant unique du chorégraphe}}",
+         "additionalType":[
+            "https://www.wikidata.org/wiki/Q2490358"
+         ],
+         "name":"{{Nom du chorégraphe}}",
+         "sameAs":[
+            "{{lien vers un ou des comptes de réseaux sociaux, si disponible}}",
+            "{{lien vers le site officiel, si disponible}}",
+            "{{URI wikidata, si disponible}}",
+            "{{URI wikipedia, si disponible}}",
+            "{{autre URI pertinent, si disponible}}"
+         ],
+         "identifier":[
+            "{{URI ISNI, si disponible}}",
+            "{{URI viaf, si disponible}}"
+         ]
+      },
+      {
+         "@type":"Organization",
+         "@id":"{{URI constituant un identifiant unique de la compagnie}}",
+         "additionalType":[
+            "https://www.wikidata.org/wiki/Q2490358"
+         ],
+         "name":"{{Nom de l'organisation}}",
+         "sameAs":[
+            "{{lien vers un ou des comptes de réseaux sociaux, si disponible}}",
+            "{{lien vers le site officiel, si disponible}}",
+            "{{URI wikidata, si disponible}}",
+            "{{URI wikipedia, si disponible}}",
+            "{{autre URI pertinent, si disponible}}"
+         ],
+         "identifier":[
+            "{{URI ISNI, si disponible}}",
+            "{{URI viaf, si disponible}}"
+         ]
+      }
+   ],
+   "creditText":"{{Liste des crédits sous forme de texte long}}",
+   "dateCreated":"{{Année de création de l'oeuvre, au format ISO 8601, par exemple 2016}}",
+   "audience":{
+      "@type":"Audience",
+      "name":"{{Le public cible de l'oeuvre sous forme de texte, par exemple : Tous publics}}"
+   },
+   "keywords":[
+      "{{premier mot clé}}",
+      "{{deuxième mot clé}}",
+      "{{etc}}"
+   ],
+   "image":"{{URL de l'image}}",
+   "thumbnailUrl":"{{}}",
+   "video":{
+      "@type":"VideoObject",
+      "@id":"{{URL du vidéo}}",
+      "name":"{{Titre de l'oeuvre}}",
+      "duration":"{{Durée du vidéo, au format ISO 8601, par exemple PT30M ou PT1H25M}}",
+      "thumbnailUrl":"URL de l'image thumbnail du vidéo"
+   },
+   "subjectOf":[
+      
+   ]
 }
