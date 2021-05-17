@@ -10,7 +10,7 @@ Si une oeuvre est liées à une compagnie, elle aura deux `creator` :
 
 Si une oeuvre est liée à un chorégraphe idépendant, elle aura un seul `creator`, le chorégraphe.
 
-### Propriété _subjectOf_
+## Propriété _subjectOf_
 
 La propriété ``subjectOf`` présentée dans le gabarit est vide. Il faudra y insérer une liste des représentations associées à l'oeuvre choréographique, en utilisant le modèle _DanceEvent_.
 
