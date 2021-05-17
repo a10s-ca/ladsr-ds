@@ -3,17 +3,67 @@
   "@type": "Person",
   "@id": "{{URI constituant un identifiant unique du chorégraphe}}",
   
-  "additionalType" : [ "https://www.wikidata.org/wiki/Q2490358" ],
-  
+  "additionalType": [ "https://www.wikidata.org/wiki/Q2490358" ],
+    
+  "hasOccupation": [
+    {
+    "@type": "Occupation",
+    "name": "Chorégraphe",
+    "occupationnalCategory" : {
+      "@type": "CategoryCode",
+      "inCodeSet": "ISCO-08"
+      "codeValue": "2653",
+      "name": "Dancers and Choreographers",
+    },
+    {
+    "@type": "Occupation",
+    "name": "Chorégraphe",
+    "occupationnalCategory" : {
+      "@type": "CategoryCode",
+      "inCodeSet": {
+        "@type": "CategoryCodeSet",
+        "name": "O*Net-SOC",
+        "dateModified" : "2020",
+        "url": "https://www.onetonline.org/"
+      }
+      "codeValue": "27-2032.00",
+      "name": "Choreographers",
+      "url": "https://www.onetonline.org/link/summary/27-2032.00"
+    }
+  ]
+      
   "name": "{{Nom du chorégraphe}}",
+  "givenName": "{{Prénom du chorégraphe, si disponible séparément}}",
+  "familyName": "{{Nom de famille du chorégraphe, si disponible séparément}}",
   
-  "sameAs" : [
+  "sameAs": [
       "{{lien vers un ou des comptes de réseaux sociaux, si disponible}}",
       "{{lien vers le site officiel, si disponible}}",
       "{{URI wikidata, si disponible}}", 
       "{{URI wikipedia, si disponible}}",
       "{{autre URI pertinent, si disponible}}"],
-  "identifier" : [
+  "identifier": [
       "{{URI ISNI, si disponible}}",
       "{{URI viaf, si disponible}}"],
+  
+  "image": "{{URL de l'image}},
+  
+  "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{Nom de la ville}}",
+      "addressRegion": "{{Nom de la province}}",
+      "postalCode": "{{Code postal}}",
+      "streetAddress": "{{Numéro civique et rue}}"
+    },
+  "email": "{{courriel du chorégraphe}}",
+  "telephone" : "{{numéro de téléphone du chorégraphe}}",
+
+  "memberOf": {
+    "@type": "Organization",
+    "@id": "{{URI constituant un identfiant unique de la DSR}}",
+    "url": "https://ladansesurlesroutes.com/",
+    "name": "La danse sur les routes du Québec",
+    "logo": "{{URL vers le logo de la DSR}}",
+    "description": "{{Description de la DSR}}",
+  },
 }
