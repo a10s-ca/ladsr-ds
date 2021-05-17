@@ -2,13 +2,17 @@
 
 Le gabarit _CreativeWork_ est utilisé pour représenter les oeuvres choréographiques.
 
-### `creator`
+### Propriété `creator`
 
 Si une oeuvre est liées à une compagnie, elle aura deux `creator` :
 - la compagnie
 - le chorégraphe
 
 Si une oeuvre est liée à un chorégraphe idépendant, elle aura une seul `creator`, le chorégraphe.
+
+### Propriété ``subjectOf``
+
+La propriété ``subjectOf`` présentée dans le gabarit est vide. Il faudra y insérer une liste des représentations associées à l'oeuvre choréographique, en utilisant le modèle DanceEvent.
 
 ### `abstract` vs `description`
 
