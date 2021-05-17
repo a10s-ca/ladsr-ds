@@ -53,7 +53,7 @@ Dans le gabarit, la propriété `location` utilisée représente un lieu physiqu
 
 ### Propriété _offers_
 
-Dans le cas où il est possible d'acheter des billets pour la représentation (quand il y a un lien d'achat présenté), la clé _offers_ sera incluse dans le gabarit, sinon elle peut être retirée.
+Dans le cas où il est possible d'acheter des billets pour la représentation (quand il y a un lien d'achat présenté), la clé ``offers`` sera incluse dans le gabarit, sinon elle peut être retirée.
 
 ### Propriété _eventStatus_
 
@@ -74,8 +74,6 @@ La syntaxe à utiliser est la suivante :
 ```
 "eventStatus": "https://schema.org/OfflineEventAttendanceMode"
 ```
-
-(!) Suggestion : comme l'info n'est pas dans la BD, je proposerais de mettre directement eventScheduled et Offline dans le modèle au lieu d'offrir le choix.
 
 ## Questions pour Stéphanie
 
