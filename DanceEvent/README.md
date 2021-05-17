@@ -24,11 +24,11 @@ Enlever la propriété ``workPerformed``.
 
 ### Utilisation au sein du gabarit _organization_ d'un diffuseur
 
-Enlever la propriété ``organizer``
+Enlever la propriété ``organizer``.
 
 ### Utilisation au sein du gabarit _organization_ d'une compagnie de danse
 
-Enlever la propriété ``performer``
+Enlever la propriété ``performer``.
 
 ### Utilisation au sein du gabarit _organization_ d'une agence
 
