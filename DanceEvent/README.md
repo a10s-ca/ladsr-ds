@@ -86,6 +86,4 @@ La syntaxe à utiliser est la suivante :
 - [ ] Quelle clé est plus pertinente pour la compagnie : `performer` ou `contributor` ? 
 - Performer : A performer at the event—for example, a presenter, musician, musical group or actor. Supersedes performers.
 - Contributor : A secondary contributor to the CreativeWork or Event.
-- [ ] Adapter la clé `performer` si jamais on a des chorégraphes représentés par Person et pas Organization
-- [ ] Est-ce qu'on a l'info sur le lieu (nom et/ou adresse) dans la BD ? Parce que ça n'apparait pas dans le tableua des représentations. Si on ne l'a pas, il faut enlever la propriété `location`.
-- [ ] idem pour la propriété `offers`.
+- [ ] Est-ce qu'on a l'info sur le lieu (nom et/ou adresse) dans la BD ? Parce que ça n'apparait pas dans le tableau des représentations. Si on ne l'a pas, il faut enlever la propriété `location`. Idem pour la propriété `offers`.
