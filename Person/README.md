@@ -2,6 +2,8 @@
 
 Le gabarit _Person_ est utilisé pour représenter les chorégraphes indépendants.
 
+[Voir le gabarit](person.json)
+
 ## Précisions
 
 ### name, givenName, familyName
