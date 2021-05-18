@@ -2,6 +2,8 @@
 
 Le gabarit _CreativeWork_ est utilisé pour représenter les oeuvres choréographiques.
 
+[Voir le gabarit](creativeWork.json)
+
 ## Propriété _creator_
 
 Si une oeuvre est liées à une compagnie, elle aura deux `creator` :
