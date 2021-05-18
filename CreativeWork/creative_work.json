@@ -68,8 +68,11 @@
       "@type":"VideoObject",
       "@id":"{{URL du vidéo}}",
       "name":"{{Titre de l'oeuvre}}",
+      "description":"{{Description du vidéo ou de l'oeuvre}}",
       "duration":"{{Durée du vidéo, au format ISO 8601, par exemple PT30M ou PT1H25M}}",
-      "thumbnailUrl":"URL de l'image thumbnail du vidéo"
+      "uploadDate":"{{Date de mise en ligne du vidéo, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00}}",
+      "embedUrl":"{{URL du vidéo}}",
+      "thumbnailUrl":"{{URL de l'image thumbnail du vidéo}}"
    },
    "subjectOf":[
       
