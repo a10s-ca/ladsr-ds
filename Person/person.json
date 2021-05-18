@@ -5,34 +5,6 @@
    "additionalType":[
       "https://www.wikidata.org/wiki/Q2490358"
    ],
-   "hasOccupation":[
-      {
-         "@type":"Occupation",
-         "name":"Chorégraphe",
-         "occupationnalCategory":{
-            "@type":"CategoryCode",
-            "inCodeSet":"ISCO-08",
-            "codeValue":"2653",
-            "name":"Dancers and Choreographers"
-         }
-      },
-      {
-         "@type":"Occupation",
-         "name":"Chorégraphe",
-         "occupationnalCategory":{
-            "@type":"CategoryCode",
-            "inCodeSet":{
-               "@type":"CategoryCodeSet",
-               "name":"O*Net-SOC",
-               "dateModified":"2020",
-               "url":"https://www.onetonline.org/"
-            },
-            "codeValue":"27-2032.00",
-            "name":"Choreographers",
-            "url":"https://www.onetonline.org/link/summary/27-2032.00"
-         }
-      }
-   ],
    "name":"{{Nom du chorégraphe}}",
    "givenName":"{{Prénom du chorégraphe, si disponible séparément}}",
    "familyName":"{{Nom de famille du chorégraphe, si disponible séparément}}",
