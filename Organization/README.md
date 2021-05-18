@@ -24,7 +24,7 @@ Définitions :
 - NAICS Code 711320 - Promoters of Performing Arts, Sports, and Similar Events without Facilities
 
 Utilisation suggérée :
-Pour les compagnies de danse, utiliser 711120.
+Pour les compagnies de danse, utiliser 711120, pour les autres organisations, enlever la propriété.
 
 ### Propriété _telephone_
 
