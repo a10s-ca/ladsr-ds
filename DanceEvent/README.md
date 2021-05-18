@@ -75,6 +75,14 @@ La syntaxe à utiliser est la suivante :
 "eventStatus": "https://schema.org/OfflineEventAttendanceMode"
 ```
 
+### Propriété _description_
+
+Il s'agit ici de présenter l'événement, et non pas l'œuvre. Toutefois, si aucune description de l'événement n'est disponible, la description de l'oeuvre peut être utilisée à la place.
+
+Il n'y a pas de longueur maximale pour la description de l'événement. Gardez toutefois en tête que la description sera tronquée lorsqu'elle sera affichée, assurez-vous donc de mettre les informations les plus pertinentes au début. Par exemple, dans le Google Event finder, les descriptions sont coupées après environ 195 caractères. Certaines sources suggèrent de rester en dessous de 500 caractères, d'autres en dessous de 160.
+
+Il n'est pas recommandé de répéter des informations qui se trouvent dans d'autres propriétés, comme la date ou le lieu.
+
 ## Questions pour Stéphanie
 
 - [ ] Peut-on trouver une façon de faire un lien entre l'oeuvre et l'agence ou l'agent?
