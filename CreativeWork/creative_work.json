@@ -9,8 +9,8 @@
    ],
    "url":"{{URL de la page décrivant l'oeuvre, sera probablement identique à la propriété @identifier}}",
    "name":"{{Titre de l'oeuvre}}",
-   "description":"{{Description de l'oeuvre}}",
-   "abstract":"{{Description de l'oeuvre}}",
+   "description":"{{Description de l'oeuvre, version courte}}",
+   "abstract":"{{Description de l'oeuvre, version longue}}",
    "creator":[
       {
          "@type":"Person",
@@ -63,7 +63,6 @@
       "{{etc}}"
    ],
    "image":"{{URL de l'image}}",
-   "thumbnailUrl":"{{}}",
    "video":{
       "@type":"VideoObject",
       "@id":"{{URL du vidéo}}",
