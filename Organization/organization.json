@@ -7,9 +7,13 @@
    "logo":"{{URL vers le logo de l'organisation}}",
    "description":"{{Description de l'organisation}}",
    "sameAs":[
+      "{{URL du site web de l'organisation}}",
       "{{URL vers un profil de média social}}",
       "{{autre URL}}",
       "{{etc.}}"
+   ],
+   "identifier":[
+      "{{URI ISNI, si disponible}}"
    ],
    "naics":"{{711120 s'il s'agit d'une compagnie de danse}}",
    "location":{
@@ -37,7 +41,6 @@
          "url":"https://ladansesurlesroutes.com/",
          "name":"La danse sur les routes du Québec",
          "logo":"{{URL vers le logo de la DSR}}",
-         "description":"{{Description de la DSR}}"
       }
    ],
    "event":[
