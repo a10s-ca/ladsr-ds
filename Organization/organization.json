@@ -40,7 +40,7 @@
          "@id":"{{URI constituant un identfiant unique de la DSR}}",
          "url":"https://ladansesurlesroutes.com/",
          "name":"La danse sur les routes du Québec",
-         "logo":"{{URL vers le logo de la DSR}}",
+         "logo":"{{URL vers le logo de la DSR}}"
       }
    ],
    "event":[
