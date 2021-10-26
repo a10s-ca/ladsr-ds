@@ -6,11 +6,10 @@ Le gabarit doit être utilisé sur la page dédiée au membre.
 
 [Voir le gabarit](organization.json)
 
-Les membres qui sont des chorégraphes indépendants seront plutôt représentés par le gabarit _Person_.
 
 ## Propriété _event_
 
-La propriété `event` présentée dans le gabarit est vide. Il faudra y insérer une liste des représentations associées à l'organisation, en utilisant le modèle [DanceEvent](../DanceEvent).
+La propriété `event` présentée dans le gabarit est vide. Il faudra y insérer une liste des représentations associées à l'organisation, en utilisant le modèle [Event](../Event).
 
 ## Précisions
 
